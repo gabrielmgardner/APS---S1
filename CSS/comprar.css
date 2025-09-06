@@ -1,0 +1,88 @@
+.ofinstext{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+    
+.ofinstext1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.container-of{
+    border: 1px solid white;
+    padding: 1em;
+    margin: 30px 0;
+}
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* next prev */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* radios */
+
+  .divdots{
+      position: absolute;
+      left: 50%;
+      bottom: 2%;
+      transform: translateX(-50%);
+      background-color: #1818188c;
+      padding: 0.7em 2em; 
+      border-radius: 45px;
+  }
+  .dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 4px;
+    background-color: rgb(87, 87, 87);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active1, .dot:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
